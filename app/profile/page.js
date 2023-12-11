@@ -130,7 +130,7 @@ function Profile() {
 							<button
 								className={`my-8 ${
 									accSettingsVisible ? "text-emerald-500" : "text-emerald-800"
-								}  hover:text-emerald-500`}
+								}  hover:text-emerald-500 z-40`}
 								onClick={() => {
 									setAccSettingsVisible((prevState) => !prevState);
 								}}
