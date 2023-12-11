@@ -44,7 +44,7 @@ function AccountMenu() {
 	return (
 		<>
 			<div
-				className="relative"
+				className="relative z-50"
 				ref={accMenuRef}
 			>
 				<button
