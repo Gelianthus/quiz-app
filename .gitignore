@@ -28,7 +28,6 @@ yarn-error.log*
 .env*.local
 .env
 .env.local
-.env
 
 # vercel
 .vercel
@@ -36,3 +35,5 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+app/api/dev/post/route.js
